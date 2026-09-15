@@ -273,26 +273,6 @@ Organized **by capability tested**, not by year.
 ### 6.10 Document / Long-Context Math
 - TODO
 
-**Metadata template** (use for every dataset entry):
-```
-
-Dataset:
-Year:
-Size:
-Visual type:
-Task type:
-Answer type:
-Reasoning annotation:
-Visual-grounding annotation:
-Process annotation:
-Error annotation:
-Evaluation metric:
-Paper:
-Code:
-License:
-
-```
-
 ---
 
 ## 7. Surveys & Resources
