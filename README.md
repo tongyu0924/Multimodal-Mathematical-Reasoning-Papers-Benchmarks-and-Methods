@@ -1,7 +1,7 @@
 # Multimodal Mathematical Reasoning: Papers, Benchmarks, and Methods
 
-A structured, research-problem-oriented collection of papers, benchmarks, and methods for **Multimodal Mathematical Reasoning (MMR)** — reasoning that requires combining visual inputs (diagrams, geometry figures, charts, tables, handwritten math) with text/symbols to solve mathematical problems.
-
+A structured, research-problem-oriented collection of papers, benchmarks, and methods for **Multimodal Mathematical Reasoning (MMR)**: reasoning that requires combining visual inputs (diagrams, geometry figures, charts, tables, handwritten math) with text/symbols to solve mathematical problems.
+ 
 Unlike collections organized by publication year or model name, this repo is organized **by research problem**, following the pipeline:
 
 > **Perception → Representation & Alignment → Reasoning → Learning & Optimization → Evaluation & Reliability → Benchmarks & Datasets → Surveys & Resources**
