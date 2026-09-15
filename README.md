@@ -24,9 +24,13 @@ Unlike collections organized by publication year or model name, this repo is org
  
 **Research question:** How does the model extract mathematically relevant information from visual inputs, *before* mathematical reasoning begins?
  
+## 1. Perception
+ 
+**Research question:** How does the model extract mathematically relevant information from visual inputs, *before* mathematical reasoning begins?
+ 
 ### 1.1 General Visual Encoding
 Standard vision-encoder pipelines (ViT/CLIP-style) that feed visual tokens into an MLLM without math-specific adaptation.
-- G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model (Gao et al., ICLR 2025) [conference page](https://openreview.net/forum?id=px1674Wp3C) [arXiv](https://arxiv.org/abs/2312.11370) [code](https://github.com/pipilurj/G-LLaVA)
+- G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model (Gao et al., ICLR 2025) [paper](https://openreview.net/forum?id=px1674Wp3C) [code](https://github.com/pipilurj/G-LLaVA)
 - Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution (Wang et al., 2024) [paper](https://arxiv.org/abs/2409.12191)
 ### 1.2 Math-Specific Visual Encoding
 Vision encoders pretrained or fine-tuned specifically on mathematical image–caption/diagram pairs, rather than generic natural images.
