@@ -24,34 +24,38 @@ Unlike collections organized by publication year or model name, this repo is org
 
 **Research question:** How does the model extract mathematically relevant information from visual inputs, *before* mathematical reasoning begins?
 
+## 1. Perception
+ 
+**Research question:** How does the model extract mathematically relevant information from visual inputs, *before* mathematical reasoning begins?
+ 
 ### 1.1 General Visual Encoding
 Standard vision-encoder pipelines (ViT/CLIP-style) that feed visual tokens into an MLLM without math-specific adaptation.
-- G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model (Gao et al., 2023) — [paper](https://arxiv.org/abs/2312.11370) · [code](https://github.com/pipilurj/G-LLaVA)
-- Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution (Wang et al., 2024) — [paper](https://arxiv.org/abs/2409.12191)
+- G-LLaVA: Solving Geometric Problem with Multi-Modal Large Language Model (Gao et al., 2023) [paper](https://arxiv.org/abs/2312.11370) · [code](https://github.com/pipilurj/G-LLaVA)
+- Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution (Wang et al., 2024) [paper](https://arxiv.org/abs/2409.12191)
 ### 1.2 Math-Specific Visual Encoding
 Vision encoders pretrained or fine-tuned specifically on mathematical image–caption/diagram pairs, rather than generic natural images.
-- MAVIS: Mathematical Visual Instruction Tuning with an Automatic Data Engine (Zhang et al., 2024) — [paper](https://arxiv.org/abs/2407.08739) · [code](https://github.com/ZrrSkywalker/MAVIS)
-- MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning (Wang et al., 2025) — [paper](https://arxiv.org/abs/2505.10557)
+- MAVIS: Mathematical Visual Instruction Tuning with an Automatic Data Engine (Zhang et al., 2024) [paper](https://arxiv.org/abs/2407.08739) · [code](https://github.com/ZrrSkywalker/MAVIS)
+- MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning (Wang et al., 2025) [paper](https://arxiv.org/abs/2505.10557)
 ### 1.3 Diagram & Geometry Perception
 Recognizing points, lines, circles, angles, tick/equal-length marks, and angle annotations in geometric figures.
-- Slow Perception: Let's Perceive Geometric Figures Step-by-step (Wei et al., 2024) — [paper](https://arxiv.org/abs/2412.20631) · [code](https://github.com/Ucas-HaoranWei/Slow-Perception)
+- Slow Perception: Let's Perceive Geometric Figures Step-by-step (Wei et al., 2024) [paper](https://arxiv.org/abs/2412.20631) · [code](https://github.com/Ucas-HaoranWei/Slow-Perception)
 ### 1.4 Chart & Table Perception
 Extracting axes, legends, data series, cell values, and table structure from charts/tables.
-- Distill Visual Chart Reasoning Ability from LLMs to MLLMs (2024) — [paper](https://arxiv.org/abs/2410.18798)
+- Distill Visual Chart Reasoning Ability from LLMs to MLLMs (2024) [paper](https://arxiv.org/abs/2410.18798)
 ### 1.5 OCR & Mathematical Symbol Recognition
 Recognizing handwritten/printed equations, LaTeX-like symbols, and mixed text-math content.
-- Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition (2025) — [paper](https://arxiv.org/abs/2505.23566)
+- Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition (2025) [paper](https://arxiv.org/abs/2505.23566)
 ### 1.6 Spatial & Layout Perception
 Understanding relative position, alignment, and layout structure (e.g., multi-panel figures, sub-diagrams).
-- MathGlance: Multimodal Large Language Models Do Not Know Where to Look in Mathematical Diagrams (2025) — [paper](https://arxiv.org/abs/2503.20745)
+- MathGlance: Multimodal Large Language Models Do Not Know Where to Look in Mathematical Diagrams (2025) [paper](https://arxiv.org/abs/2503.20745)
 ### 1.7 Active Perception
 Iterative "detect uncertain region → crop/zoom → re-perceive" pipelines rather than single-pass encoding.
-- ZoomEye: Enhancing Multimodal LLMs with Human-like Zooming Capabilities through Tree-based Image Exploration (Shen et al., EMNLP 2025) — [paper](https://arxiv.org/abs/2411.16044)
-- V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs (Wu & Xie, CVPR 2024) — [paper](https://arxiv.org/abs/2312.14135)
+- ZoomEye: Enhancing Multimodal LLMs with Human-like Zooming Capabilities through Tree-based Image Exploration (Shen et al., EMNLP 2025) [paper](https://arxiv.org/abs/2411.16044)
+- V*: Guided Visual Search as a Core Mechanism in Multimodal LLMs (Wu & Xie, CVPR 2024) [paper](https://arxiv.org/abs/2312.14135)
 ### 1.8 Multi-Agent Perception
 Multiple specialized perception modules/agents (e.g., one for OCR, one for geometry) coordinating on a single input.
-- Do Multi-Agents Solve Better Than Single? Evaluating Agentic Frameworks for Diagram-Grounded Geometry Problem Solving and Reasoning (2025) — [paper](https://arxiv.org/abs/2512.16698)
-- TODO (this subcategory is still thin in the math-specific literature; most other multi-agent perception work is in adjacent domains, e.g. chemistry olympiad solving — add more math-specific papers as they appear)
+- Do Multi-Agents Solve Better Than Single? Evaluating Agentic Frameworks for Diagram-Grounded Geometry Problem Solving and Reasoning (2025) [paper](https://arxiv.org/abs/2512.16698)
+- TODO (this subcategory is still thin in the math-specific literature; most other multi-agent perception work is in adjacent domains, e.g. chemistry olympiad solving; add more math-specific papers as they appear)
 
 ---
 
